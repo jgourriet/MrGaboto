@@ -151,7 +151,6 @@ li:hover {
     background-attachment: fixed;
     position: relative;
     overflow: hidden;
-    /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -469,7 +468,7 @@ input[type="submit"]:hover {
     border-radius: 10px;
     cursor: pointer;
     color: rgb(0, 0, 0);
-    background: rgb(9, 78, 9);
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 
 .copy {
