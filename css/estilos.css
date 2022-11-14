@@ -243,6 +243,10 @@ li:hover {
 
 
 /* Cards */
+.Music{
+    width: 100%;
+    height: auto;
+}
 .cards-contenedor {
     background-image: url(../img/music.jpg);
     background-repeat: no-repeat;
@@ -488,7 +492,12 @@ input[type="submit"]:hover {
     right: 5%;
     transition: 2s ease;
 }
-
+@media screen and (max-width:1573px){
+    .video1 iframe{
+        width: 400px;
+        height: 300px;
+    }
+}
 @media screen and (max-width:1050px) {
     .textos-hero h1 {
         font-size: 105px;
