@@ -39,8 +39,6 @@ header {
     flex-direction: row;
     text-align: center;
     align-items: center;
-
-
 }
 
 .Redes a {
@@ -149,6 +147,7 @@ li:hover {
     height: 150px;
     background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
+
 
 .musica {
     background-image:  url(../img/music.jpg);
@@ -612,6 +611,15 @@ input[type="submit"]:hover {
 }
 .wtp a img{
     border-radius: 100%;
+}
+.audiofondo{
+    position: fixed;
+    bottom: 3%;
+    left: 5%;
+}
+audio{
+    width: 50%;
+    
 }
 @media screen and (max-width:1573px){
     .video1 iframe{
